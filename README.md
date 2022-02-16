@@ -10,8 +10,7 @@
   Portofolio app
 </h3>
 <p>
-  The application is synonymous with the Windows application with the same name.
-At this time only the mouse can be used for data entry. I'm working on the version that uses the keyboard.
+  It's a game where you have to guess a word (in English). Use the mouse or keyboard to enter data.
 </p>
 
 ## Preview

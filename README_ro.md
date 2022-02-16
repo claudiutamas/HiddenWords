@@ -10,8 +10,7 @@
   Aplicație pentru portofoliu
 </h3>
 <p>
-  Aplicația este sinonimă cu aplicația din Windows având același nume.
-  La acest moment doar mouse-ul poate fi utilizat pentru a introduce date. Lucrez la versiunea care va utiliza și tastatura.
+  Este un joc în care trebuie să ghicești un cuvânt (în engleză). Pentru introducerea datelor se folosește mouse-ul sau tastatura.
 </p>
 
 ## Preview
