@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" viewBox="0 0 30 20" role="img" aria-label="Romania">
+  <defs>
+    <clipPath id="flag-shape-ro">
+      <rect width="30" height="20" rx="3"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#flag-shape-ro)">
+    <rect width="10" height="20" x="0" fill="#002B7F"/>
+    <rect width="10" height="20" x="10" fill="#FCD116"/>
+    <rect width="10" height="20" x="20" fill="#CE1126"/>
+  </g>
+  <rect x="0.5" y="0.5" width="29" height="19" rx="2.5" fill="none" stroke="#001219" stroke-opacity=".22"/>
+</svg>
