@@ -10,7 +10,7 @@
   Aplicație pentru portofoliu
 </h3>
 <p>
-  Este un joc în care trebuie să ghicești un cuvânt (în engleză). Pentru introducerea datelor se folosește mouse-ul sau tastatura.
+  Este un joc în care trebuie să ghicești un cuvânt (în română sau engleză). Pentru introducerea datelor se folosește mouse-ul sau tastatura.
 </p>
 
 ## Preview

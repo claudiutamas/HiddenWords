@@ -12,6 +12,21 @@
   </head>
 
   <body>
+    <header class="game-header">
+      <h1 class="page-title">Ghicește cuvântul</h1>
+      <p class="game-description">
+        Găsește cuvântul ascuns în șase încercări. Tastează cu ajutorul tastaturii sau al tastelor de pe ecran. Introdu cuvintele fără diacritice.
+      </p>
+      <p class="game-language-note">Versiunea în limba engleză folosește cuvinte în engleză, iar cea în limba română, cuvinte în română.</p>
+      <section class="color-legend" aria-labelledby="legend-title">
+        <h2 id="legend-title">Legedă culori</h2>
+        <ul>
+          <li><span class="legend-color correct" aria-hidden="true"></span>Literă corectă, în poziția corectă</li>
+          <li><span class="legend-color wrong-location" aria-hidden="true"></span>Litera este în cuvânt, dar în altă poziție</li>
+          <li><span class="legend-color wrong" aria-hidden="true"></span>Litera nu este în cuvânt</li>
+        </ul>
+      </section>
+    </header>
     <nav class="language-switcher" aria-label="Select language">
       <a class="language-link inactive" href="index.html" aria-label="English version">
         <img src="gb.svg" alt="" width="30" height="20" />

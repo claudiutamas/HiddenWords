@@ -12,6 +12,24 @@
   </head>
 
   <body>
+    <header class="game-header">
+      <h1 class="page-title">Guess the word</h1>
+      <p class="game-description">
+        Find the hidden word in six tries. Type with your keyboard or use the on-screen keys.
+      </p>
+      <p class="game-language-note">The English version uses English words, while the Romanian version uses Romanian words.</p>
+      <section class="color-legend" aria-labelledby="legend-title">
+        <h2 id="legend-title">Color legend</h2>
+        <ul>
+          <li><span class="legend-color correct" aria-hidden="true"></span>Correct letter and position</li>
+          <li>
+            <span class="legend-color wrong-location" aria-hidden="true"></span>Letter is in the word, but in another
+            position
+          </li>
+          <li><span class="legend-color wrong" aria-hidden="true"></span>Letter is not in the word</li>
+        </ul>
+      </section>
+    </header>
     <nav class="language-switcher" aria-label="Select language">
       <span class="language-link active" aria-current="page" aria-label="English version">
         <img src="gb.svg" alt="English flag" width="30" height="20" />

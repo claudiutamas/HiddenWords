@@ -10,7 +10,7 @@
   Portofolio app
 </h3>
 <p>
-  It's a game where you have to guess a word (in English). Use the mouse or keyboard to enter data.
+  It's a game where you have to guess a word (in Romanian or English). Use the mouse or keyboard to enter data.
 </p>
 
 ## Preview

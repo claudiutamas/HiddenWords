@@ -24,6 +24,89 @@ body {
   gap: 0.5em;
 }
 
+.game-header {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  z-index: 1;
+}
+
+.page-title {
+  margin: 0;
+  color: hsl(49, 85%, 62%);
+  font-size: clamp(1.25rem, 4vmin, 2.5rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-transform: uppercase;
+  text-shadow: 0.08em 0.08em 0 hsl(115, 29%, 28%), 0 0 0.4em hsl(49, 85%, 62% / 35%);
+}
+
+.game-description {
+  max-width: 20em;
+  margin: 1em 0 0;
+  color: hsl(204, 7%, 85%);
+  font-size: clamp(0.7rem, 2vmin, 1rem);
+  line-height: 1.4;
+}
+
+.game-language-note {
+  max-width: 20em;
+  margin: 0.8em 0 0;
+  color: hsl(204, 7%, 70%);
+  font-size: clamp(0.65rem, 1.8vmin, 0.9rem);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.color-legend {
+  margin-top: 1.5em;
+  color: hsl(204, 7%, 85%);
+  font-size: clamp(0.65rem, 1.8vmin, 0.9rem);
+}
+
+.color-legend h2 {
+  margin: 0 0 0.5em;
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.color-legend ul {
+  display: grid;
+  gap: 0.45em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.color-legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+}
+
+.legend-color {
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 0.2em;
+  flex: 0 0 auto;
+}
+
+.legend-color.correct {
+  background-color: hsl(115, 29%, 43%);
+}
+
+.legend-color.wrong-location {
+  background-color: hsl(49, 51%, 47%);
+}
+
+.legend-color.wrong {
+  background-color: hsl(240, 2%, 23%);
+  border: 0.05em solid hsl(200, 1%, 34%);
+}
+
 .language-link {
   display: flex;
   padding: 0.2em;
